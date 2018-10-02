@@ -20,7 +20,7 @@ public class Activator implements BundleActivator {
 		service = (PreferencesService) tracker.getService();
 		Preferences preferences = service.getSystemPreferences();
 		preferences.put(COLOR, "lavender");
-		System.out.println("My favourite color is test as: " + preferences.get(COLOR, ""));
+		System.out.println("My favourite color is test as ndryshim: " + preferences.get(COLOR, ""));
 	}
 
 	@Override
